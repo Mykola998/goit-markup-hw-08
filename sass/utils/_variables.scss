@@ -1,0 +1,21 @@
+:root {
+  --primaru-text-collor: #212121;
+  --titel-text-collor: #ffffff;
+  --accent-collor: #2196f3;
+  --contact-color: #757575;
+  --overlay-collor: #2f303a;
+  --dutton-color: #f5f4fa;
+  --background-collorr: #f5f5f5;
+  --contacts-collor: #ffffff99;
+  --border-collor: #ececec;
+  --border-text-collor: #eeeeee;
+  --icon-collor: #afb1b8;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primaru-text-collor);
+  padding-top: 60px;
+  @media screen and (min-width: 768px) {
+      padding-top: 80px;
+    }
+}

@@ -1,0 +1,212 @@
+.footer a {
+  text-decoration: none;
+}
+
+.footer {
+  background: var(--overlay-collor);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: block;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
+}
+
+.footer-section {
+  margin-bottom: 60px;
+@media screen and (min-width: 768px) {
+    padding-left: 76px;
+  }
+    @media screen and (min-width: 1200px) {
+     padding-left: 0px;
+     margin-bottom: 0px;
+    }
+}
+
+.footer .logo,
+.studio {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.166;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--accent-collor);
+  @media screen and (min-width: 1200px) {
+      font-size: 26px;
+        line-height: 1.192;
+    }
+}
+
+.footer .studio {
+  color: var(--titel-text-collor);
+}
+
+.footer-contact:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--titel-text-collor);
+}
+
+.footer .contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--contacts-collor);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-collor);
+  }
+}
+
+.footer .logo {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.footer-wrap {
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+      margin-left: 165px;
+      margin-bottom: 0px;
+    }
+        @media screen and (min-width: 1200px) {
+          margin-left: 94px;
+        }
+}
+
+.footer-list-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--titel-text-collor);
+  margin-bottom: 20px;
+}
+
+.footer-item {
+  width: 44px;
+  height: 44px;
+  
+}
+
+.icon-footer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-collor);
+  }
+}
+
+.footer-soc-icon {
+  fill: var(--titel-text-collor);
+}
+
+.footer-link {
+  display: inline-block;
+  @media screen and (min-width: 768px) {
+  margin-left: auto;
+  margin-right: auto;
+    }
+        @media screen and (min-width: 1200px) {
+          margin-left: 94px;
+         
+        }
+  
+}
+
+.footer-link-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--titel-text-collor);
+  margin-bottom: 20px;
+}
+.footer-form{
+  @media screen and (min-width: 1200px) {
+     display: flex;
+     gap: 12px;
+    }
+  }
+
+.footer-input {
+  width: 450px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 15px 16px;
+  margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+      display: block;
+    }
+        @media screen and (min-width: 1200px) {
+          width: 357px;
+        }
+}
+
+.footer-button {
+  display: inline-flex;
+  font-weight: 700;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.06em;
+  color: var(--titel-text-collor);
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 1200px) {
+  margin-left: auto;
+    }
+}
+
+.footer-button-icon {
+  fill: var(--titel-text-collor);
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+}
